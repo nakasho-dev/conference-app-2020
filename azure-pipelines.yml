@@ -18,6 +18,7 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
+  continueOnError: true
 
 - task: WhiteSource Bolt@20
   inputs:
